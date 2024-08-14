@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let a={
+            name:"",
+            age:34
+        }
+        let name= a.name || "Anything";//here if 'a' is true then it leaves 'b' -> (true, true)=true
+        //(false,true)= true,(false,false)=false.
+        let age=a.age || 81;
+        console.log(name);//Anything
+        console.log(age)//34
+    </script>
+</body>
+</html>

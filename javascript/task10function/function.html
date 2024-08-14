@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+     function numberv(a,b){
+    //function definition
+        alert(a+b);
+        }
+        numberv(9,1);   //fuction call
+// create function to calculate the area of rectangle
+function areaofrec(l,b){
+    console.log("the area of rectangle",l*b);
+}
+ 
+let l= +prompt("enter the length",0);
+let b= +prompt("enter the breadth",0); 
+areaofrec(l,b) // function call for areaofrec
+
+//the above two function are example for argument passing function
+//task 48
+function welcome(){
+    console.log("welcome to the JavaScript");
+    
+}
+welcome()//fuction call for welcome
+//task 49
+function empty(){
+
+}
+console.log(empty());// we trying to get no return function by default it returns undefined.
+
+//task 50
+//Declare a function with default parameters and call it with different argument
+function multi(x,y){
+    console.log(x*y);//Nan
+}
+multi(5);
+</script>
+
+</body>
+</html>

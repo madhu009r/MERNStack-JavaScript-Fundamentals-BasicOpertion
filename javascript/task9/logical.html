@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        var a=99;
+        let b=87;
+        // && operator
+        if((a>90) && (b<80)){
+            console.log(1)
+        }
+        else{
+            console.log("the error")
+        }
+        // || operator
+    if(a<99 || a==99){
+        console.log(true)
+    }
+    else{
+        console.log(false)
+    }
+    // ! operator
+    if(a!=b){
+        console.log("a is different of b")
+    }
+    else{
+        console.log("both are equal");
+    }
+    //the problem to find a number to find in range
+    var num= +prompt("enter the number",0);
+    //the condition is to check the number in the range of 27-46
+    if(num>=27 && num<=46){
+        console.log("the number is in a given range :",num);
+    }
+    else{
+        console.log("the number not in a range:",num);
+    }
+    //program to perform Not(!) operator in boolean datatype
+    console.log("the Not of true is:",!(true));
+    console.log("the Not of false is:",!(false));
+    </script>
+
+    
+</body>
+</html>
